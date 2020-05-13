@@ -1,9 +1,3 @@
-local Passwords = {"S.KOM BUDI OFFICIAL"}
-local passcodemenu = gg.prompt({"🛡PROTECT🛡️\n ENTER THE PASSWORD: "},nil,{"text"})
-if not passcodemenu then return end
-for l , I in pairs(Passwords) do
-if passcodemenu[1] == I then A = true end
-end
 
 function WHmulti()
 gg.searchNumber("436207618;-509607932;-476049408;-352321465;-509607932:17", gg.TYPE_DWORD)
