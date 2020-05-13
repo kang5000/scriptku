@@ -1,11 +1,4 @@
-Detector = gg.getFile():match('[^/]+$')
-Name =  'WH ONLY' -- Type Name For Start Script . If Someone Will Rename It , Then Script Won't Run
-if Detector == Name then gg.alert('⭕SCRIPT UNLOCKED⭕ : \n      '..Name)
-else 
-Error = '🆘PROTECTED🆘\n🚫 SCRIPT RENAMED 🚫\n⭕ORIGINAL NAME: FUCKING SHIT' -- Type Error Message Here 
-print(Error) 
-return
-end 
+
 
 function WHmulti()
 gg.searchNumber("436207618;-509607932;-476049408;-352321465;-509607932:17", gg.TYPE_DWORD)
